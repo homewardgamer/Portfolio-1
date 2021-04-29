@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Welcome to my Portfolio...</title>
+        <link rel="stylesheet" href="style.css">
+
+       
+    </head>
+    <body>
+        <section class="banner">
+            <header>
+                <a href="#" class="logo">Porfolio</a>
+                <div class="toggle"></div>
+            </header>
+            <img src="Pictures\girl.png" class="girl">
+            <div class="content">
+                <div class="contentbx">
+                    <h4>Hola Guys !</h4>
+                    <h2>I am Kirti</h2>
+                    <h3> Tech Enthusiast</h3>
+                    <p>I am currently a Freshman at IIIT Allahabad . I am curious learner who is always ready to learn stuffs 
+                        which seem interesting and I am passionate about which majorly includes Front end development.
+                        I have experience working with HTML5, CSS3 , and still learning more technologies 😃 .</p>
+                        <a href="#" >Resume</a>
+                </div>
+            </div>
+        </section>
+        <script>
+            const toggle=document.querySelector('.toggle');
+            const banner=document.querySelector('.banner');
+            toggle.onclick=function(){
+            toggle.classList.toggle('active');
+            banner.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
