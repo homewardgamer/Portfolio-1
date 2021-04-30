@@ -16,6 +16,7 @@ section{
     display: flex;
     align-items:center;
     background: #21283a;
+    overflow-x: hidden;
 
 }
 section::before{
@@ -268,6 +269,22 @@ transform-origin: left;
 {
     visibility: hidden;
     opacity: 0;
-    
+
+}
+@media (max-width: 991px)
+{
+.elements
+{
+    visibility: hidden;
+    opacity: 0;
+
+}
+header{
+    padding: 20px 40px;
+
+}
+section {
+    padding: 0 40px;
+}
 }
 

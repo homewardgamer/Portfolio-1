@@ -56,7 +56,7 @@
             function parallax(e){
                 this.querySelectorAll('.elements').forEach(Layer => { const speed = Layer.getAttribute('data-speed');
             const x = (window.innerWidth - e.pageX*speed)/100;
-            Layer.style.transform='TranslateX(${x}px)';
+            Layer.style.transform = 'translateX(${x}px)';
         })
 
             }
